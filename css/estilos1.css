@@ -1,0 +1,89 @@
+body{
+    background: url(../imagenes/tudecides.jpg);
+    background-repeat:no-repeat;
+    background-attachment: scroll;
+    background-position: center 0px;
+    color: #ffff;
+}
+
+h1{
+    color: #f50632;
+    margin: 0px 370px;
+    font-size: 60px; 
+    text-shadow: 5px 5px 5px #41356E;
+}
+
+h2{
+    font-size: 43px;
+    margin: 45px 100px;
+    font-family:fantasy;
+    text-shadow: 5px 5px 5px #2DACC5;
+}
+
+h3{position:relative;
+    top: 670px;
+    left: 480px;
+    font-size: 20px;
+    margin: 45px 100px;
+    font-family:fantasy;
+    text-shadow: 5px 5px 5px #2DACC5;
+}
+
+
+p{
+    font-size: 25px;
+    margin: 0px 100px;
+    font-family:fantasy;
+    text-shadow: 5px 5px 5px #f50632;
+}
+
+a{position:relative;
+    top: 580px;
+    left: 600px;
+    font-size: 30px;
+    margin: 500px 300px 900px;
+    text-shadow: 2px 2px 2px #f50632;
+    padding: 5px 5px;
+    
+}
+
+a:hover{
+    background: #f50632;
+    color: #2DACC5;
+}
+
+form{position:relative;
+    top: -525px;
+    width: 25%;
+    border: 2px solid #2DACC5;
+    margin: 0px 0px 0px 900px;
+    padding: 20px;
+}
+
+
+label{
+    font-size: 12px;
+    display: block;
+    width: 100%;
+}
+
+input{
+    margin-bottom:20px;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #41356E;
+}
+
+input:focus{
+    border:  1px solid #41356E;
+}
+
+input[type="button"]{
+    margin-bottom: 5px;
+    background: #f50632;
+    color: #ffff;
+    border:none;
+}
+
+
